@@ -1,0 +1,17 @@
+.header {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(163, 105, 105, 0.947);
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.btn {
+  margin-left: 20px;
+  border: none;
+  background-color: rgb(150, 33, 54);
+}

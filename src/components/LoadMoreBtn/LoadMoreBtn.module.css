@@ -1,0 +1,11 @@
+.loadBtn {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(150, 33, 54);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

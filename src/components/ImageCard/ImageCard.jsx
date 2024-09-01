@@ -1,7 +1,14 @@
-export default function ImageCard() {
+import style from "./ImageCard.module.css";
+
+export default function ImageCard({ image, onOpenModal }) {
   return (
-    <div>
-      <img src="" alt="" />
+    <div className={style.itemImg}>
+      <img
+        onClick={() => onOpenModal(image)}
+        src={image.urls.small_s3}
+        alt={image.description}
+        className={style.galleryImg}
+      />
     </div>
   );
 }
